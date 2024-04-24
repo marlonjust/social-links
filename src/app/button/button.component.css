@@ -1,0 +1,22 @@
+.styled-button {
+  background-color: hsl(0, 0%, 20%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  padding: 15px 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px;
+  font-weight: bold;
+  border-radius: .5rem;
+  width: 150px;
+  box-shadow: 0px 4px 7px 0px hsla(0, 0%, 2%, 0.5);
+}
+
+
+.styled-button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: #1d1d1d;
+  transition: all 275ms ease;
+}
