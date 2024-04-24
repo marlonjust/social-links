@@ -5,9 +5,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: fadeInAnimation ease 0.75s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  overflow: hidden;
 }
 
 body, html {
   height: 100%;
   margin: 0;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+      transform: translateY(50px);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateY(0px);
+  }
 }
