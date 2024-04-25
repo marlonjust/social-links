@@ -21,6 +21,10 @@
   transition: all 275ms ease;
 }
 
+.styled-button:not(:hover){
+  transition: all 275ms ease;
+}
+
 @media (max-width: 414px){
     .styled-button{
       padding: 15px 75px;
