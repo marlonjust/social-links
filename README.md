@@ -1,5 +1,4 @@
-# SocialLinks
-Static Website that acts as a linktree and a small introduction
-
-Written in Angular:
-*npm start* to view in local development environment
+Static Website that acts as a linktree and a small introduction.
+<br>
+<br>
+*npm start* to view in local development environment with the latest Angular version installed.
